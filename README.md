@@ -1,35 +1,4 @@
 # Monitoring
-* This repo helps to understand how monitoring setup can be done and run docker containers of ElasticSearch, Influxdb and grafana
-
-* Visualisation of following details
-  * Server health
-  * Performance
-  * Disk utilization
-  * Network
-  * Application logs
-
-
-## Setup Docker on Local mac
-
-* Validate docker is installed on the mac by running:
-
-  `$ ls /Applications/ | grep -i Docker.app`
-
- * If Docker is not installed, navigate to  https://docs.docker.com/docker-for-mac/ and install stable version by following the Docker documentation.
- * Confirm installation complete by running: `docker info`
-
-* Validate docker-compose is installed on the mac by running:
-
- `$ docker-compose --version`
-
-  * If docker-compose is not installed, navigate to https://docs.docker.com/compose/install/ and install
-  * Confirm installation complete by running:
-
-  `$ docker-compose --version`
-
-
-* Clone this Repo `$ git clone git@git.target.com:EDABI-Core/Monitoring.git`
-
 
 ## Setup Monitoring on Local mac
 
